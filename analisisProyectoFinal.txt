@@ -1,0 +1,17 @@
+
+La empresa TK-U tiene una alta demanda de cotizaciones, se debe crear un programa donde las cotizaciones sean automáticos y fácil de usar para el usuario solo ingresando algunos datos clave.
+
+Depende de algunos parámetros clave que el usuario ingrese se realizarán algunos cálculos según la edad, el estado civil o si tiene hijos/as o no.
+
+Siempre tomando en cuenta los recargos según la edad del asegurado y su cónyuge.
+
+El algoritmo podría ser el siguiente:
+
+1. Solicitar los datos de la persona asegurada, incluyendo su edad, estado civil, cantidad de hijos y cantidad de propiedades.
+2. Verificar si la persona asegurada es mayor de edad. Si no lo es, indicar que no es elegible para la cotización.
+3. Calcular el precio base de la cotización, que puede ser un valor fijo o puede ser modificado por el usuario.
+4. Calcular los recargos extra basados en la edad del asegurado y su cónyuge. Para esto, se puede evaluar en qué rango de edad se encuentra cada uno y aplicar el recargo correspondiente.
+5. Calcular los recargos extra basados en la cantidad de hijos del asegurado para aplicar el recargo correspondiente.
+6. Calcular los recargos extra basados en la cantidad de propiedades de la persona asegurada para aplicar el recargo correspondiente.
+7. Sumar el precio base y los recargos extra para obtener el precio total de la cotización.
+8. Mostrar el precio total al usuario y preguntar si desea realizar otra cotización. Si el usuario ingresa "Salir", finalizar el programa. Si no, volver al paso 1.
